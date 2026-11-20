@@ -1,0 +1,11 @@
+[project]
+name = "mcp-gateway-aws"
+version = "0.1.0"
+description = "Serverless multi-user MCP gateway on AWS with per-user, KMS-encrypted upstream credentials."
+requires-python = ">=3.12"
+license = "MIT"
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "tests"]
+testpaths = ["tests"]
+addopts = "-q"

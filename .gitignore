@@ -1,0 +1,20 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node / CDK
+node_modules/
+cdk/cdk.out/
+cdk/**/*.js
+cdk/**/*.d.ts
+!cdk/jest.config.js
+cdk.context.json
+
+# Local secrets and editors
+.env
+.env.*
+.DS_Store
+.vscode/
+.idea/
